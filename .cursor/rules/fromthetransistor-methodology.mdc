@@ -1,0 +1,91 @@
+---
+description: Curriculum Development Methodology
+globs: 
+alwaysApply: true
+---
+# From the Transistor - Curriculum Development Methodology
+
+## Core Philosophy
+
+This curriculum teaches computer systems from first principles, building understanding from transistors to web browsers. Every concept must be explained thoroughly enough that someone with analytical skills but technical knowledge gaps can understand and apply it.
+
+### Target Learner Profile
+- Career switchers from analytical fields seeking deeper technical understanding
+- Strong analytical thinking, self-taught technical skills
+- Seeks first-principles foundation in computer systems
+- Self-learning with AI assistance preferred
+- Values deep understanding over surface knowledge
+- Acknowledges tendency to skip technical implementations - needs structure to prevent this
+
+## Essential Principles
+
+### 1. First Principles Foundation
+- **Explain every technical term** when first introduced
+- **Never assume prior knowledge** of technical concepts
+- **Address "why" not just "what"** - explain reasoning behind design choices
+- **Provide scale perspective** (nanometer measurements, transistor counts)
+
+### 2. Universal Communication
+- **Use concrete, universal analogies** (water flow, gravity, cooking, traffic systems)
+- **Connect to familiar concepts** (household electronics, everyday experiences)
+- **Define every symbol and acronym** in diagrams and text
+- **Conversational but precise** tone
+
+### 3. Visual Learning Excellence
+- **ASCII diagrams are crucial** - make abstract concepts concrete
+- **Proper alignment and formatting** - visual clarity affects comprehension
+- **Progressive complexity** - start simple, build to complex
+- **Mechanistic visualization** - show how components connect and interact
+
+### 4. Practical Implementation
+- **Hands-on implementation over pure theory**
+- **Working code examples** that can be run immediately
+- **Structure prevents skipping** - technical implementations are mandatory
+- **Simulation over real hardware** for accessibility
+
+### 5. Continuous Refinement
+- **Review entire file** each feedback cycle
+- **Capture meta-patterns** from feedback
+- **Balance detail with accessibility**
+- **Apply to methodology itself**
+
+## Structure Standard
+
+### Section Level
+```
+section-XX-name/
+├── resources.md       # Curated books, papers, videos, and tools
+└── XX-chapter-name/
+    ├── README.md          # Main tutorial with visual diagrams
+    ├── theory.md          # Deep technical background
+    ├── exercises.md       # Progressive skill-building (mandatory)
+    ├── src/               # Working code examples
+    ├── tests/             # Validation and testing code
+    ├── assets/            # Images, diagrams, and visual aids
+    └── solutions/         # Answer keys and reference implementations
+```
+
+## Quality Control Checklist
+
+### Before Publishing
+- [ ] Every acronym defined when first used
+- [ ] All diagram symbols explained
+- [ ] Visual alignment checked and corrected
+- [ ] Universal analogies used appropriately
+- [ ] Mechanistic explanations complete
+- [ ] Working code examples provided
+- [ ] Exercises match the knowledge level provided
+
+### Development Environment
+- **Cross-platform compatibility** when possible
+- **Choose tools with good cross-platform support**
+- **Prioritize simulation** over real hardware for accessibility
+
+---
+
+**Key Insights**: 
+1. **Visual learning** with proper symbol explanation is crucial
+2. **Universal analogies** make complex concepts accessible to diverse backgrounds
+3. **Practical focus prevents learning gaps** - technical implementations must be mandatory
+4. **Learners need first-principles foundation** - bridge from concepts to deep understanding
+5. **Continuous refinement applies to methodology itself** - holistic improvement over myopic fixes
